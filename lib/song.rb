@@ -50,7 +50,7 @@ class Song
   def self.new_from_filename(mp3)
     title = mp3.split('-')[1]
     song = self.new 
-    binding.pry
+    #binding.pry
     song.name = title 
     song 
   end 
