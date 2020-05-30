@@ -54,5 +54,9 @@ class Song
     song.name = title 
     song 
   end 
+  
+  def self.destroy_all 
+    @@all.reset
+  end 
 
 end
