@@ -52,7 +52,6 @@ class Song
     song.name = mp3.split('-')[1]
     artist.name = mp3.split('-')[0]
     #binding.pry
-    song.name = title 
     song 
   end 
   
