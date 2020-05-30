@@ -47,7 +47,7 @@ class Song
   
   def self.new_from_filename(mp3)
     song = self.new
-    song.name = mp3
+    name = mp3
   end 
 
 end
