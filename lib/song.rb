@@ -46,5 +46,7 @@ class Song
   end 
   
   def self.new_from_filename(mp3)
+    title = mp3.split("-")[1]
+    title.remove('.mp3')
 
 end
