@@ -56,13 +56,13 @@ class Song
     song 
   end 
   
-  def self.new_from_filename(mp3)
+  def self.create_from_filename(mp3)
     song = self.new 
     title = mp3.split(' - ')[1]
     song.name = title[0...-4]
     song.artist_name = mp3.split(' - ')[0]
     #binding.pry
-    self.all << song 
+    self.all << song  
   end 
   
   def self.destroy_all 
