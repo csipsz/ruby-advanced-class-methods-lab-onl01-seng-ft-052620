@@ -52,6 +52,7 @@ class Song
     song = self.new 
     binding.pry
     song.name = title 
+    song 
   end 
 
 end
