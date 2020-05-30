@@ -47,7 +47,7 @@ class Song
   
   def self.new_from_filename(mp3)
     title = mp3.split("-")[1]
-    title.slice(1, -3)
+    self.new = title.slice(1, -3)
   end 
 
 end
